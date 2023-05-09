@@ -11,6 +11,10 @@ leftScore = 0
 rightScore = 0
 
 leftPaddle = turtle.Turtle()
+leftPaddle.speed(0)
+leftPaddle.shape("square")
+leftPaddle.color("blue")
+leftPaddle.shapesize(stretch_len=5, stretch_wid=-1)
 
 
 while True:
